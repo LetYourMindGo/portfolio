@@ -1,3 +1,21 @@
 .projects-section {
   height: 95vh;
+  background-color: #FBE8A6;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-section__header {
+  padding: 3rem;
+}
+
+.header__projects {
+  color: #303C6C;
+  font-size: 3rem;
+}
+
+.header__projects-line {
+  background-color: #303C6C;
+  width: 100%;
+  height: 0.5rem;
 }

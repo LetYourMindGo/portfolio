@@ -1,3 +1,21 @@
 .contact-section {
   height: 95vh;
+  background-color: #303C6C;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section__header {
+  padding: 3rem;
+}
+
+.header__contact {
+  color: #D2FDFF;
+  font-size: 3rem;
+}
+
+.header__contact-line {
+  background-color: #D2FDFF;
+  width: 100%;
+  height: 0.5rem;
 }

@@ -24,12 +24,12 @@
 
 .css {
   grid-area: css;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 
 .node {
   grid-area: node;
-  animation-delay: 7s;
+  animation-delay: 5.5s;
 }
 
 .js {
@@ -39,7 +39,7 @@
 
 .react {
   grid-area: react;
-  animation-delay: 9s;
+  animation-delay: 3.5s;
 }
 
 .sass {
@@ -54,7 +54,7 @@
 
 .docker {
   grid-area: docker;
-  animation-delay: 10s;
+  animation-delay: 4.5s;
 }
 
 .gitsq {
@@ -64,17 +64,17 @@
 
 .gith {
   grid-area: gith;
-  animation-delay: 11s;
+  animation-delay: 6.5s;
 }
 
 .html {
   grid-area: html;
-  animation-delay: 6s;
+  animation-delay: 2.5s;
 }
 
 .py {
   grid-area: py;
-  animation-delay: 12s;
+  animation-delay: 6s;
 }
 
 .icon-grid {

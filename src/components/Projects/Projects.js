@@ -4,7 +4,10 @@ import './Projects.css';
 const Projects = () => {
   return (
     <div id="projects" className="projects-section">
-      Projects will be here!
+      <div className="projects-section__header">
+        <h2 className="header__projects">Projects</h2>
+        <div className="header__projects-line"></div>
+      </div>
     </div>
   );
 };
