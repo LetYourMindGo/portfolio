@@ -1,10 +1,10 @@
 .main-button {
   font-size: 2rem;
   font-weight: 700;
-  transform: translateY(10rem);
+  transform: translateY(13rem);
   text-transform: uppercase;
   padding: 1.5rem;
-  margin: 2rem;
+  margin: 3rem;
   cursor: pointer;
   color: #303C6C;
   background-color: #D2FDFF;
@@ -13,12 +13,12 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: .5s;
   z-index: 2;
-  animation: shake 2s 15s 10 linear;
+  animation: shake 4s 15s 20 linear;
   animation-delay: 15s;
 }
 
 .main-button:hover {
-  transform: scale(1.1) translateY(9rem);
+  transform: scale(1.1) translateY(12rem);
   color: #D2FDFF;
   background-color: #303C6C;
   border: 3px solid #D2FDFF;
@@ -27,7 +27,11 @@
 
 @media only screen and (max-width: 1440px) {
   .main-button {
-  font-size: 1.5rem;
+    transform: translateY(10rem);
+    font-size: 1.5rem;
+  }
+  .main-button:hover {
+    transform: scale(1.1) translateY(9rem);
   }
 }
 
@@ -43,5 +47,6 @@
   40% { transform: translateY(10rem) translate(-1px, -1px) rotate(1deg); }
   45% { transform: translateY(10rem) translate(1px, 2px) rotate(0deg); }
   50% { transform: translateY(10rem) translate(1px, -2px) rotate(-1deg); }
+  55% { transform: translateY(10rem) rotate(0deg) }
   100% { transform: translateY(10rem) rotate(0deg) }
 }
