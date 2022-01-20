@@ -1,3 +1,27 @@
 .home-section {
-  height: 100vh;
+  height: 95vh;
+  padding-top: 5vh;
+  background-color: #F4976C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-section__text {
+  position: absolute;
+  font-size: 5rem;
+  color: #D2FDFF;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 1440px) {
+  .home-section__text {
+    font-size: 4rem;
+  }
+}
+
+.text__name {
+  color: #303C6C;
 }
