@@ -1,21 +1,117 @@
 .about-section {
-  height: 95vh;
+  height: 100vh;
   background-color: #D2FDFF;
+  /* background-image: linear-gradient(#F4976C, #D2FDFF); */
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
 .about-section__header {
-  padding: 3rem;
+  padding-top: 4.5rem;
 }
 
 .header__about {
   color: #303C6C;
   font-size: 3rem;
+  animation: slide-from-right ;
 }
 
 .header__about-line {
   background-color: #303C6C;
   width: 100%;
   height: 0.5rem;
+}
+
+.about-section__main {
+  display: flex;
+}
+
+.main__info {
+  width: 50%;
+  text-align: center;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.info__photo {
+  width: 18rem;
+  height: 18rem;
+  border: 3px solid #303C6C;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info__header,
+.skills__header {
+  color: #303C6C;
+  font-size: 2rem;
+}
+
+.info__text {
+  width: 80%;
+  color: #303C6C;
+  font-size: 1.15rem;
+  text-align: justify;
+}
+
+.main__skills {
+  width: 50%;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.skills__levels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 1rem;
+}
+
+.levels__bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #D2FDFF;
+  border: 3px solid #303C6C;
+  margin-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.levels__bar:last-child{
+  margin-bottom: 0;
+}
+
+.bar__fill {
+  background-color: #F4976C;
+}
+
+.bar__skill {
+  color: #303C6C;
+  font-size: 1.15rem;
+  padding-left: 1rem;
+}
+
+.bar__procent {
+  color: #303C6C;
+  font-size: 1.15rem;
+  padding-right: 0.5rem;
+}
+
+
+@keyframes slide-from-right {
+  from {transform: translateX(-90rem); opacity: 0;}
+  to {transform: translateX(0); opacity: 1}
 }

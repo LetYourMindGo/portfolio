@@ -1,12 +1,16 @@
 .contact-section {
-  height: 95vh;
+  height: 80vh;
   background-color: #303C6C;
+  /* background-image: linear-gradient(#FBE8A6, #303C6C); */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .contact-section__header {
-  padding: 3rem;
+  padding-top: 4.5rem;
+  width: fit-content;
 }
 
 .header__contact {
@@ -18,4 +22,126 @@
   background-color: #D2FDFF;
   width: 100%;
   height: 0.5rem;
+}
+
+.contact-section__main {
+  margin: 2rem;
+  padding: 1rem 2rem;
+}
+
+.main__text {
+  color: #D2FDFF;
+  font-size: 2rem;
+}
+
+.main__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem;
+  width: 35rem;
+}
+
+.form__info {
+  width: 100%;
+}
+
+.info__input {
+  width: 17rem;
+  background-color: #FBE8A6;
+  color: #303C6C;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  font-size: 1.25rem;
+  border: 3px solid #D2FDFF;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info__input:first-child {
+  margin-right: 0.5rem;
+}
+
+.info__input:last-child {
+  margin-left: 0.5rem;
+}
+
+.form__textfield {
+  background-image: linear-gradient(#FBE8A6, #F4976C) ;
+  width: 100%;
+  height: 10rem;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  color: #303C6C;
+  margin: 0;
+  font-size: 1.5rem;
+  border: 3px solid #D2FDFF;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form__button {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  color: #303C6C;
+  background-color: #F4976C;
+  border: 3px solid #D2FDFF;
+  text-decoration: none;
+  transition: .4s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form__button:hover {
+  filter: brightness(1.1);
+  transform: scale(1.25);
+}
+
+.form-done {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  .contact-section__form {
+    margin: 2rem;
+    width: 35rem;
+  }
+
+  .info__input {
+    width: 17rem;
+    background-color: #FBE8A6;
+    color: #303C6C;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    border: 3px solid #D2FDFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .info__input:first-child {
+    margin-right: 0.5rem;
+  }
+  
+  .info__input:last-child {
+    margin-left: 0.5rem;
+  }
+
+  .form__textfield {
+    background-color: #FBE8A6;
+    width: 100%;
+    height: 10rem;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    color: #303C6C;
+    margin: 0;
+    font-size: 1.5rem;
+    border: 3px solid #D2FDFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
 }

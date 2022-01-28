@@ -1,0 +1,30 @@
+.footer-section {
+  height: 20vh;
+  background-color: #303C6C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-section__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons__item {
+  font-size: 3rem;
+  color: #D2FDFF;
+  margin: 1rem 2rem;
+  transition: .4s;
+}
+
+.icons__item:hover {
+  filter: brightness(1.1);
+  transform: scale(1.25);
+}
+
+.footer-section__copyright {
+  color: #D2FDFF
+}

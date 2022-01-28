@@ -1,78 +1,78 @@
-.node,
-.js,
-.react,
-.html,
-.css,
-.sass,
-.db,
-.docker,
-.gitsq,
-.gith,
-.aws,
-.py {
+.icon-grid__node,
+.icon-grid__js,
+.icon-grid__react,
+.icon-grid__html,
+.icon-grid__css,
+.icon-grid__sass,
+.icon-grid__db,
+.icon-grid__docker,
+.icon-grid__gitsq,
+.icon-grid__gith,
+.icon-grid__aws,
+.icon-grid__py {
   color:#D2FDFF;
-  padding: 5rem 1rem;
+  padding: 4rem 1rem;
   font-size: 4.8rem;
   opacity: 0;
   animation: mymove 4s ease forwards;
 }
 
-.aws {
+.icon-grid__aws {
   grid-area: aws;
   animation-delay: 5s;
 }
 
-.css {
+.icon-grid__css {
   grid-area: css;
   animation-delay: 1.5s;
 }
 
-.node {
+.icon-grid__node {
   grid-area: node;
   animation-delay: 5.5s;
 }
 
-.js {
+.icon-grid__js {
   grid-area: js;
   animation-delay: 4s;
 }
 
-.react {
+.icon-grid__react {
   grid-area: react;
   animation-delay: 3.5s;
 }
 
-.sass {
+.icon-grid__sass {
   grid-area: sass;
   animation-delay: 3s;
 }
 
-.db {
+.icon-grid__db {
   grid-area: db;
   animation-delay: 2s;
 }
 
-.docker {
+.icon-grid__docker {
   grid-area: docker;
   animation-delay: 4.5s;
 }
 
-.gitsq {
+.icon-grid__gitsq {
   grid-area: gitsq;
   animation-delay: 0s;
 }
 
-.gith {
+.icon-grid__gith {
   grid-area: gith;
   animation-delay: 6.5s;
 }
 
-.html {
+.icon-grid__html {
   grid-area: html;
   animation-delay: 2.5s;
 }
 
-.py {
+.icon-grid__py {
   grid-area: py;
   animation-delay: 6s;
 }
@@ -96,18 +96,18 @@
 }
 
 @media only screen and (max-width: 1440px) {
-  .node,
-  .js,
-  .react,
-  .html,
-  .css,
-  .sass,
-  .db,
-  .docker,
-  .gitsq,
-  .gith,
-  .aws,
-  .py {
+  .icon-grid__node,
+  .icon-grid__js,
+  .icon-grid__react,
+  .icon-grid__html,
+  .icon-grid__css,
+  .icon-grid__sass,
+  .icon-grid__db,
+  .icon-grid__docker,
+  .icon-grid__gitsq,
+  .icon-grid__gith,
+  .icon-grid__aws,
+  .icon-grid__py {
     padding: 1rem;
   }
 
@@ -115,6 +115,7 @@
   .icon-grid {
     font-size: 5rem;
     height: 90vh;
+    width: 90vw;
     grid-template-areas:
       "gith . . aws . node ."
       ". js . . py . docker"

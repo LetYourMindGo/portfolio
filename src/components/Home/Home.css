@@ -1,7 +1,8 @@
 .home-section {
-  height: 95vh;
-  padding-top: 5vh;
+  height: 100vh;
+  padding-top: 3rem;
   background-color: #F4976C;
+  /* background-image: linear-gradient(#303C6C, #F4976C); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,6 +18,11 @@
 }
 
 @media only screen and (max-width: 1440px) {
+  .home-section {
+    height: 95vh;
+    padding-top: 3.5rem;
+  }
+
   .home-section__text {
     font-size: 4rem;
   }
